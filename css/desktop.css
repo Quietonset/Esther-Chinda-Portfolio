@@ -49,6 +49,7 @@
 }
 .btn:hover{
     transform: translateX(10px);
+    color: #fff;
 }
 .link{
     text-decoration: none;
