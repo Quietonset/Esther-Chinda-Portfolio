@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+    /* text-transform: uppercase; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #111f41; */
+    background-color: #000;
+    color: #5d687f;
+}
