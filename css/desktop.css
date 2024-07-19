@@ -137,6 +137,8 @@ h2{
     flex-direction: column;
 }
 .box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     height: 150px;
     width: 93%;
     border: solid 2px;
@@ -146,16 +148,31 @@ h2{
 }
 .box:hover{
     border-color: #dee8fe;
-    border-width: 3px;
+    /* border-width: 3px; */
     cursor: pointer;
     height: 165px;
     width: 98%;
     color: #dee8fe;
-    /* background-color: #3b475c; */
-    /* transform: translateY(-4px) translateX(4px); */
 }
 .project-icons{
-    font-size: 80px;
-    color: #203260;
-    margin: 30px;
+    font-size: 70px;
+    /* color: #425c95; */
+    margin: 15px;
+    text-align: center;
+    align-content: center;
+}
+.project-info{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.project-links{
+    text-align: center;
+    align-content: center;
+    color: #5d687f;
+}
+.project-links:hover{
+    color:#dee8fe;
+}
+.mini-text{
+    padding: 10px;
 }
